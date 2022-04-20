@@ -12,7 +12,7 @@
 name: Update Checker
 
 env:
-  REPO_URL_Lede: https://github.com/cysk003/lede.git
+  REPO_URL_Lede: https://github.com/coolsnowwolf/lede.git
   REPO_BRANCH_Lede: master
   REPO_PATH_Lede : "lede"
   
