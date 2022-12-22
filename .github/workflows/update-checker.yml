@@ -16,8 +16,8 @@ env:
   REPO_BRANCH_Lede: master
   REPO_PATH_Lede : "lede"
   
-  REPO_URL_HelloWorld: https://github.com/cysk003/helloworld.git
-  REPO_BRANCH_HelloWorld: compiler
+  REPO_URL_HelloWorld: https://github.com/fw876/helloworld.git
+  REPO_BRANCH_HelloWorld: master
   REPO_PATH_HelloWorld : "helloworld"
 
 on:
