@@ -52,7 +52,6 @@ jobs:
       - name: Update feeds
         run: |
           sed -i 's/#src-git helloworld/src-git helloworld/g' ./feeds.conf.default
-          echo "src-git helloworld https://github.com/cysk003/helloworld.git;compiler" >> "feeds.conf.default"
           echo "src-git passwallpackages https://github.com/xiaorouji/openwrt-passwall.git;packages" >> "feeds.conf.default"
           echo "src-git passwallluci https://github.com/xiaorouji/openwrt-passwall.git;luci" >> "feeds.conf.default"
           echo "src-git OpenClash https://github.com/vernesong/OpenClash.git" >> "feeds.conf.default"
