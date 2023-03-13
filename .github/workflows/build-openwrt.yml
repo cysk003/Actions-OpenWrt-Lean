@@ -128,7 +128,7 @@ jobs:
           file_glob: true
 
       - name: Delete workflow runs
-        uses: GitRML/delete-workflow-runs@main
+        uses: Mattraks/delete-workflow-runs@v2
         with:
           retain_days: 10
           keep_minimum_runs: 3
