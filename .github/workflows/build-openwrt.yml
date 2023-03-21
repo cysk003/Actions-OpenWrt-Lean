@@ -62,7 +62,7 @@ jobs:
       - name: Generate configuration file
         run: |
           rm -f ./.config*
-          curl -o .config https://raw.githubusercontent.com/cysk003/Actions-Openwrt-Lean/master/.config
+          curl -o .config https://raw.githubusercontent.com/cysk003/Actions-OpenWrt-Lean/master/.config
 
       - name: SSH connection to Actions
         uses: P3TERX/ssh2actions@v1.0.0
